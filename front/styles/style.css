@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #949494;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+  
+/* Estilos de las tarjetas de películas */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    transition: box-shadow 0.3s ease;
+    width: 380px; /* Tamaño fijo de la tarjeta */
+}
+
+.card:hover {
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5); /* Luz blanca al pasar el puntero */
+}
+
+.card:hover img {
+    opacity: 0.7;   /* Opacidad al pasar el puntero */
+}
+
+.card .divMovie {
+    margin-top: 10px;
+}
+
+.card h3 {
+    margin: 5px 0;
+    font-size: 1em; 
+    font-weight: bold;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.8em; 
+}
+
+.card:hover .divMovie {
+    opacity: 0.7; /* Opacidad al pasar el puntero */
+}
+
+
+.navbar {
+    background-color: #333; 
+    overflow: hidden; 
+    text-align: center; 
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block; 
+}
+
+.navbar li a {
+    display: block; 
+    padding: 1em 2em; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.navbar li a:hover {
+    background-color: #555; 
+}
+.imgCr{
+    height: 380px;
+    margin: 1em;
+    
+}
+.carousel-item img {
+    display: block;
+    margin: auto;
+  }
+
+  .carousel-container {
+    max-width: 800px; /* Define el ancho máximo deseado */
+    margin: 0 auto; /* Para centrar el contenedor horizontalmente */
+}
+
